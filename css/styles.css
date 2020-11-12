@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(74,14,14);
+    background: linear-gradient(90deg, rgba(74,14,14,1) 9%, rgba(5,0,35,1) 75%);
+}
+#city-name{
+    width: 750px;
+    height: 30px;
+    opacity: 0.7;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    margin-top: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: bolder;
+}
+#display-city{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+}
+#temperature{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 15px;
+}
+h4{
+    font-weight: normal;
+    text-align: center;
+}
+#api{
+    margin-top: 100px;
+}
+#creator{
+    margin-top: 10px;
+}
+#description{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
