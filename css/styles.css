@@ -1,49 +1,59 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
 }
-body{
-    background: rgb(74,14,14);
-    background: linear-gradient(90deg, rgba(74,14,14,1) 9%, rgba(5,0,35,1) 75%);
+body {
+  background-image: url("/img/minimalist-mountains-landscape-scenery-n4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-#city-name{
-    width: 750px;
-    height: 30px;
-    opacity: 0.7;
-    color: black;
-    display: block;
-    margin: 0 auto;
-    margin-top: 250px;
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 5px;
-    font-weight: bolder;
+#city-name {
+  width: 750px;
+  height: 30px;
+  opacity: 0.7;
+  color: black;
+  display: block;
+  margin: 0 auto;
+  margin-top: 250px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-weight: bolder;
+  outline: none;
 }
-#display-city{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 80px;
+#display-city {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
 }
-#temperature{
-    text-align: center;
-    font-size: 100px;
-    margin-top: 15px;
+#temperature {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 15px;
 }
-h4{
-    font-weight: normal;
-    text-align: center;
+h4 {
+  font-weight: normal;
+  text-align: center;
 }
-#api{
-    margin-top: 100px;
+#api {
+  margin-top: 100px;
 }
-#creator{
-    margin-top: 10px;
+#api a:hover {
+  color: black;
 }
-#description{
-    text-align: center;
-    margin-top: 15px;
-    font-weight: bold;
+#creator {
+  margin-top: 10px;
+}
+#creator a:hover {
+  color: black;
+}
+#description {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bolder;
 }

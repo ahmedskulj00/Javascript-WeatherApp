@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WeatherApp</title>
-    <link rel="stylesheet" href="css/styles.css">
-
-</head>
-<body>
-
-      <input type="text" id="city-name" placeholder="Please enter the name of your city">
-      <p id="display-city"></p>
-      <p id="temperature"></p>
-      <p id="description"></p>
-      <h4 id="api">Created using <a href="https://openweathermap.org/api">OpenWeatherMap API</a></h4>
-      <h4 id="creator">Created by <a href="https://github.com/ahmedskulj00">ahmedskulj00</a></h4>
-      
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <input
+      type="text"
+      id="city-name"
+      placeholder="Please enter the name of your city"
+      class="animate__animated animate__fadeInLeft"
+    />
+    <p id="display-city"></p>
+    <p id="temperature"></p>
+    <p id="description"></p>
+    <h4 id="api" class="animate__animated animate__fadeInLeft">
+      Created using
+      <a href="https://openweathermap.org/api">OpenWeatherMap API</a>
+    </h4>
+    <h4 id="creator" class="animate__animated animate__fadeInLeft">
+      Created by <a href="https://github.com/ahmedskulj00">ahmedskulj00</a>
+    </h4>
 
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
