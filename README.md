@@ -1,3 +1,6 @@
 # Javascript-WeatherApp
-A javascript app that shows current weather using api. The api that has been used is: OpenWeatherMap API.
-
+### A simple application that shows current weather. It was made using OpenWeatherMap API. (https://openweathermap.org/) 
+#### Technologies used:
+1. HTML
+2. CSS
+3. JavaScript
